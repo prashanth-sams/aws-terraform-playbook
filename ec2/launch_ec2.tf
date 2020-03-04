@@ -7,7 +7,7 @@ variable "private_key_path" {
 }
 
 variable "profile" {
-  default = "prashanth9sa"
+  default = "prashanth"
 }
 
 variable "key_name" {
