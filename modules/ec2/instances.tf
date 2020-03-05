@@ -20,12 +20,6 @@ data "aws_ami" "aws-linux-2" {
   }
 }
 
-resource "aws_default_vpc" "default" {
-  tags = {
-    Name = "test vpc"
-  }
-}
-
 resource "aws_security_group" "allow_ssh" {
   name          = "test group name"
   description   = "allow ports for nginx"
@@ -61,6 +55,12 @@ resource "aws_security_group" "allow_ssh" {
 
   tags = {
     Name = "test security group"
+  }
+}
+
+resource "aws_default_vpc" "default" {
+  tags = {
+    Name = "test vpc"
   }
 }
 

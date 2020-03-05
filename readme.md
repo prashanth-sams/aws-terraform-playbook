@@ -3,7 +3,7 @@
 
 Create EC2 instance with free-tier 
 ```
-cd ./ec2/
+cd ./dev/
 terraform init
 terraform validate
 terraform plan
