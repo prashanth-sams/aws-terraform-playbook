@@ -4,4 +4,4 @@
 **/*.tfstate.backup
 **/*.tfstate
 **/*.tfvars
-**/vars*
+**/*.tfstate
