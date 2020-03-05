@@ -10,5 +10,3 @@ terraform plan
 terraform apply -auto-approve
 terraform destroy -auto-approve
 ```
-
-**Note:** Update variables in `.tf` file
